@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--网页宽度自动适应手机屏幕宽度-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Document</title>
+</head>
+<body>
+    <div id='header'>
+        <div id="fq"></div>
+    </div>
+    <div id='nav'></div>
+    <div id='article'></div>
+    <div id='footer'>Name:俞森洲 Student ID:20213663 QQ:2102985411 Number&Wechat:15970322741</div>
+    <script>
+         document.body.style.height = window.innerHeight - 30 + 'px';
+         var i=0;
+         var fq=['不要等待，时机永远不会恰到好处。——拿破仑·希尔','真正的人生，只有在经过艰难卓绝的斗争之后才能实现。——塞涅卡','伟大的事业，需要决心，能力，组织和责任感。——易卜生','合理安排时间，就等于节约时间。——培根','敏而好学，不耻下问。——孔子','与有肝胆人共事，从无字句处读书。——周恩来']
+         var fqDom = document.getElementById('fq');
+         showfq();
+         function showfq(){
+            fqDom.textContent = fq[i];
+            if (i >= fq.length - 1){
+                i = 0;
+            }
+            else{
+                i++;
+            }
+            window.setTimeout(showfq,3000);//使呈现的内容进行内部循环并3s更替一次
+        }
+        var a=['第一周','第二周','第三周','第四周','第五周','第六周','第七周','第八周','第九周','第十周','第十一周','第十二周','第十三周','第十四周','第十五周','第十六周']
+        for(var m = 0;m < a.length/4;m++){
+        var div = document.createElement('div');
+        for(var n = 0;n < 4;n++){
+                if( m * 4+n < a.length){
+                    var input = document.createElement('input');
+                    input.type = "button";
+                    input.value = a[m * 4 + n];
+                    input.id = a[m * 4 + n];
+                    div.appendChild(input);
+                };
+            };
+            document.getElementById("nav").appendChild(div);
+        };
+        document.getElementById("第一周").onclick=function(){
+            window.open('https://youzelian.github.io/16/xiahao/20213664-1.html');//在一个新窗口打开指定链接
+        };
+        document.getElementById("第二周").onclick=function(){
+            window.open('https://youzelian.github.io/16/xiahao/20213664-2.html');
+        };
+        document.getElementById("第三周").onclick=function(){
+            window.open('https://youzelian.github.io/16/xiahao/20213664-3.html');
+        };
+        document.getElementById("第四周").onclick=function(){
+            window.open('https://youzelian.github.io/16/xiahao/20213664-4.html');
+        };
+        document.getElementById("第五周").onclick=function(){
+            window.open('https://youzelian.github.io/16/xiahao/20213664-5.html');
+        };
+        document.getElementById("第六周").onclick=function(){
+            window.open('https://youzelian.github.io/16/xiahao/20213664-6.html');
+        };
+        document.getElementById("第七周").onclick=function(){
+            window.open('https://youzelian.github.io/16/xiahao/20213664-7.html');
+        };
+        document.getElementById("第八周").onclick=function(){
+            window.open('https://youzelian.github.io/16/xiahao/20213664-8.html');
+        };
+        document.getElementById("第九周").onclick=function(){
+            window.open('https://youzelian.github.io/16/xiahao/20213664-9.html');
+        };
+        document.getElementById("第十周").onclick=function(){
+            window.open('https://youzelian.github.io/16/xiahao/20213664-10.html');
+        };
+        document.getElementById("第十一周").onclick=function(){
+            window.open('https://youzelian.github.io/16/xiahao/20213664-11.html');
+        };
+        document.getElementById("第十二周").onclick=function(){
+            window.open('https://youzelian.github.io/16/xiahao/20213664-12.html');
+        };
+        document.getElementById("第十三周").onclick=function(){
+            window.open('https://youzelian.github.io/16/xiahao/20213664-13.html');
+        };
+        document.getElementById("第十四周").onclick=function(){
+            window.open('https://youzelian.github.io/16/xiahao/20213664-14.html');
+        };
+        document.getElementById("第十五周").onclick=function(){
+            window.open('https://youzelian.github.io/16/xiahao/20213664-15.html');
+        };
+        document.getElementById("第十六周").onclick=function(){
+            window.open('https://youzelian.github.io/16/xiahao/20213664-16.html');
+        };
+
+    </script>
+</body>
+</html>
