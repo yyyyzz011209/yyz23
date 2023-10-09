@@ -62,33 +62,33 @@
             </tr>
             <tr align="center">
                 <td>第一周作业</td>
-                <td><a href="20213663/20213663-01.html">20213663-01</a></td>
-                <td>古诗《春宵》</td>
+                <td><a href="">20213663-01</a></td>
+                <td></td>
             </tr>
             <tr align="center">
                 <td>第二周作业</td>
-                <td><a href="20213663-02.html">20213663-02</a></td>
-                <td>《超链接》</td>
+                <td><a href="">20213663-02</a></td>
+                <td></td>
             </tr>
             <tr align="center">
                 <td>第三周作业</td>
-                <td><a href="20213663-03.html">20213663-03</a></td>
-                <td>《新闻页面》</td>
+                <td><a href="20213663-20230919.html">20213663-03</a></td>
+                <td></td>
             </tr>
             <tr align="center">
                 <td>第四周作业</td>
                 <td><a href="20213663-04.html">20213363-04</a></td>
-                <td>《健康码查询》</td>
+                <td></td>
             </tr>
             <tr align="center">
                 <td>第五周作业</td>
                 <td><a href="20213663-05.html">20213363-05</a></td>
-                <td>古诗《饮湖上初晴后雨》</td>
+                <td></td>
             </tr>
             <tr align="center">
                 <td>第六周作业</td>
                 <td><a href="20213663-06.html">20213663-06</a></td>
-                <td>《实现翻页》</td>
+                <td></td>
             </tr>
             <tr align="center">
                 <td>第七周作业</td>
@@ -103,17 +103,17 @@
             <tr align="center">
                 <td>第九周作业</td>
                 <td><a href="20213663-09.html">20213663-09</a></td>
-                <td>实现唐诗三百首的上下翻页</td>
+                <td></td>
             </tr>
             <tr align="center">
                 <td>第十周作业</td>
                 <td><a href="20213663-10.html">20213663-10</a></td>
-                <td>实现抽一首古诗的功能</td>
+                <td></td>
             </tr>
             <tr align="center">
                 <td>第十一周作业</td>
                 <td><a href="20213663-11.html">20213663-11</a></td>
-                <td>做一个简单计算器</td>
+                <td></td>
             </tr>
             <tr align="center">
                 <td>第十二周作业</td>
